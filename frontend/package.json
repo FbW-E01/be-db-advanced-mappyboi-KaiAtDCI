@@ -5,6 +5,8 @@
   "scripts": {
     "start": "react-scripts start"
   },
+  "proxy": "http://localhost:27017",
+
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",
