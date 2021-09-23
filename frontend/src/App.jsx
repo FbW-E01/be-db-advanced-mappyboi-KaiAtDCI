@@ -14,8 +14,8 @@ export default function App() {
 
   // Configure leaflet Marker icon - without this it is broken 💩
   // Wow this kind of sucks and was super hard to find!
-  // const DefaultIcon = L.icon({ iconUrl: icon, shadowUrl: null  });
-  // L.Marker.prototype.options.icon = DefaultIcon;
+  const DefaultIcon = L.icon({ iconUrl: icon, shadowUrl: null  });
+  L.Marker.prototype.options.icon = DefaultIcon;
 
   console.log("BACKEND RUNNING AT " + process.env.REACT_APP_BACKEND);
 
